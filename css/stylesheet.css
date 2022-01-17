@@ -20,6 +20,8 @@ img {
     /* border: 10px solid red; */
     display: flex;
     flex-direction: column;
+    /* align-items: center is taking the two containers (navbar & content) and centering it on the row axis since the main axis is column */
+    align-items: center;
     background-color: #1F2937;
     gap: 70px;
     height: 30%;
@@ -28,7 +30,7 @@ img {
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
     font-size: 14px;
     color: #E5E7EB;
     margin-top: 15px;
@@ -82,8 +84,7 @@ button {
     margin-top: 10px;
 }
 
-/*This adjusts the width & where the content sits within the center of the screen, i.e. header section*/
-/* .navbar, .head_section_content {
+/* This adjusts the containers holding the content to take up 75% of the header (which is the blue background) */
+.navbar, .head_section_content {
     width: 75%;
-    margin: auto;
-} */
+}
