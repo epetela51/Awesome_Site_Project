@@ -4,12 +4,15 @@ This is a project that tests what has been learned from The Odin Project relatin
 
 Using Flexbox to align content within flex containers, CSS to add text & background colors, fonts & sizes and html to be the bones of the page with the actual content
 
-## Below is a screenshot of the mockup page that The Odin Project provided that I need to try and mirror to the best of my abilities
+### Below is a screenshot of the mockup page that The Odin Project provided that I need to try and mirror to the best of my abilities
 
 ![TOP Mockup Page](/images/odin-project-mockup.png?raw=true)
 
 ---
 
-## Below is where I currently stand after doing the first two sections
+
+
+
+### Below is where I currently stand after doing the first two sections
 
 ![My Current Page](/images/current_page.png?raw=true)
