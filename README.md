@@ -9,9 +9,8 @@ Using Flexbox to align content within flex containers, CSS to add text & backgro
 ![TOP Mockup Page](/images/odin-project-mockup.png?raw=true)
 
 ---
-
-
-
+<br>
+<br>
 
 ### Below is where I currently stand after doing the first two sections
 
