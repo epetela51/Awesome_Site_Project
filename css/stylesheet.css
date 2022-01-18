@@ -10,7 +10,7 @@ body {
     width: 60%
 }
 
-img {
+.head_section_content img {
     width: 300px;
     height: 200px;
 }
@@ -24,7 +24,7 @@ img {
     align-items: center;
     background-color: #1F2937;
     gap: 70px;
-    height: 30%;
+    height: 28%;
 }
 
 .navbar {
@@ -37,10 +37,6 @@ img {
 }
 
 .nav_links {
-    /* list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex; */
     gap: 20px;
 }
 
@@ -61,7 +57,7 @@ ul {
 }
 
 .awesome_header_text {
-    font-size: 48px;
+    font-size: 38px;
     font-weight: bold;
     color: #F9FAF8;
     font-family: Arial, Helvetica, sans-serif;
@@ -75,7 +71,7 @@ ul {
     margin: 0;
 }
 
-.logo {
+.nav_text {
     font-size: 24px;
     font-weight: bold;
     margin: 0;
@@ -96,6 +92,46 @@ button {
     width: 75%;
 }
 
-.random_information {
+/* This hold all the content in the 'Random Info' section which includes the 4 image with subtext along with the 'some random info' header */
+.apple_information_section {
+    /* border: 4px solid red; */
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 27%;
+}
+
+/* This holds the four images and subtext */
+.info_section {
+    /* border: 4px solid purple; */
+    display: flex;
+    gap: 25px;
+}
+
+/* aligns the image and the text in the center and sents the container to a max width to match the size of the img width */
+.text_image {
+    text-align: center;
+    max-width: 150px;
+}
+
+.text_image p {
+    font-size: 14px;
+    color: #474747;
+    margin-top: 3px;
+}
+
+/* styles 4 images in the information section by settings img size, borders & rounded corners */
+.apple_information_section img {
+    width: 150px;
+    height: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 7px;
+}
+
+/* h2 title for the information section which sets font size, color and brings the title down from the top */
+.apple_information_section h2 {
+    margin-top: 30px;
+    font-size: 26px;
+    color: #1f2937;
 }
