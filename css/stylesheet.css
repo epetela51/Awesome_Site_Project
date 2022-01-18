@@ -36,13 +36,20 @@ img {
     margin-top: 15px;
 }
 
-/* remove list decoration */
-ul {
-    list-style: none;
+.nav_links {
+    /* list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
+    display: flex; */
     gap: 20px;
+}
+
+/* remove list decoration for navbar & random info section*/
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 /* this is the button and the text content.  It pushes the image and content to both sides and uses gap to add space between image and text content */
@@ -87,4 +94,8 @@ button {
 /* This adjusts the containers holding the content to take up 75% of the header (which is the blue background) */
 .navbar, .head_section_content {
     width: 75%;
+}
+
+.random_information {
+    background-color: white;
 }
