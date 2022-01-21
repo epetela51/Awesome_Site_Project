@@ -53,6 +53,19 @@ body {
     gap: 20px;
 }
 
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #3882F6;
+}
+
 /* remove list decoration for navbar & random info section*/
 ul {
     display: flex;
