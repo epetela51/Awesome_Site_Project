@@ -8,17 +8,22 @@ body {
     margin: auto;
     background-color: #222121; */
     height: 100vh;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Puts all classes to grow evenly.  Footer is removed from this grouping as it caused it to be to tall allowing height property to be set on footer to customize size */
+.header, .apple_information_section, .quote_section, .call_to_action_section {
+    flex: 1;
 }
 
 
 
 
 /* || Styling for top header of page with navbar */
-
-.head_section_content img {
-    width: 300px;
-    height: 200px;
-}
 
 /* This is the all the content in the head (navbar, img, text, button */
 .header {
@@ -28,8 +33,14 @@ body {
     /* align-items: center is taking the two containers (navbar & content) and centering it on the row axis since the main axis is column */
     align-items: center;
     background-color: #1F2937;
-    gap: 70px;
-    height: 28%;
+    gap: 70px; /* sets the gap between the navbar and the title */
+    /* height: 28%; */
+    padding-bottom: 70px; /* puts more space at the bottom of the section showing more blue background */
+}
+
+.head_section_content img {
+    width: 300px;
+    height: 200px;
 }
 
 .navbar {
@@ -55,10 +66,9 @@ ul {
 
 /* this is the button and the text content.  It pushes the image and content to both sides and uses gap to add space between image and text content */
 .head_section_content {
-    /* border: 4px solid purple; */
     display: flex;
     justify-content: space-between;
-    gap: 40px;
+    gap: 40px; /* sets the gap between the imag and the title, text & button */
 }
 
 .awesome_header_text {
@@ -66,13 +76,11 @@ ul {
     font-weight: bold;
     color: #F9FAF8;
     font-family: Arial, Helvetica, sans-serif;
-    /* border: 2px solid pink; */
     margin: 0;
 }
 
 .secondary_text {
     color: #E5E7EB;
-    /* border: 2px solid yellow; */
     margin: 0;
 }
 
@@ -108,13 +116,14 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 27%;
+    padding-bottom: 60px;
+    /* height: 27%; */
 }
 
 /* This holds the four images and subtext */
 .info_section {
     display: flex;
-    gap: 25px;
+    gap: 25px; /* sets the gap spacing between each of the 4 sections of images & text */
 }
 
 /* aligns the image and the text in the center and sents the container to a max width to match the size of the img width */
@@ -156,7 +165,8 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 20%; /* sets height of the section */
+    padding: 30px 0;
+    /* height: 20%; */
 }
 
 blockquote {
@@ -164,8 +174,10 @@ blockquote {
     color: #1f2937;
     font-style: italic;
     margin: 20px 0;
+    font-weight: light;
 }
 
+/* Keeps 'steve jobs' name aligned to the right within the container */
 figcaption {
     text-align: right;
 }
@@ -180,7 +192,8 @@ figcaption {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 18%;
+    /* height: 18%; */
+    padding: 50px;
 }
 
 /* Holds text & button in a div */
@@ -192,6 +205,7 @@ figcaption {
     height: 50%;
     width: 75%;
     border-radius: 7px;
+    padding: 20px;
 }
 
 .apple_text {
@@ -213,4 +227,22 @@ figcaption {
 #apple_head {
     font-weight: bold;
     font-size: 14px;
+}
+
+
+
+
+/* || Styling for footer section */
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5%; /* sets the height of the footer background/container. Only works if flex isn't set for this container */
+}
+
+.footer p {
+    color: white;
+    font-size: 12px;
 }
