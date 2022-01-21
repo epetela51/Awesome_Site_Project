@@ -15,4 +15,4 @@ Using Flexbox to align content within flex containers, CSS to add text & backgro
 
 ### Below is where I currently stand after doing the first two sections
 
-![My Current Page](/images/current_page_screenshot.png?raw=true)
+![My Current Page](/images/current_page.png?raw=true)
