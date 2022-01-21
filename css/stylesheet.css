@@ -3,14 +3,13 @@ body {
     margin: 0;
     padding: 0;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+        height: 100vh;
+    display: flex;
+    flex-direction: column;
     /* Sets the width of the body to be 70% of the page and centered and sets a default background color
     width: 70%;
     margin: auto;
     background-color: #222121; */
-    height: 100vh;
-    /* height: 100%; */
-    display: flex;
-    flex-direction: column;
 }
 
 
@@ -30,11 +29,9 @@ body {
     /* border: 10px solid red; */
     display: flex;
     flex-direction: column;
-    /* align-items: center is taking the two containers (navbar & content) and centering it on the row axis since the main axis is column */
-    align-items: center;
+    align-items: center; /* taking the two containers (navbar & content) and centering it on the row axis since the main axis is column */
     background-color: #1F2937;
     gap: 70px; /* sets the gap between the navbar and the title */
-    /* height: 28%; */
     padding-bottom: 70px; /* puts more space at the bottom of the section showing more blue background */
 }
 
@@ -117,7 +114,6 @@ button {
     flex-direction: column;
     align-items: center;
     padding-bottom: 60px;
-    /* height: 27%; */
 }
 
 /* This holds the four images and subtext */
@@ -166,7 +162,6 @@ button {
     align-items: center;
     justify-content: center;
     padding: 30px 0;
-    /* height: 20%; */
 }
 
 blockquote {
@@ -192,7 +187,6 @@ figcaption {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 18%; */
     padding: 50px;
 }
 
