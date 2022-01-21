@@ -104,7 +104,6 @@ button {
 
 /* This holds the four images and subtext */
 .info_section {
-    /* border: 4px solid purple; */
     display: flex;
     gap: 25px;
 }
@@ -134,4 +133,24 @@ button {
     margin-top: 30px;
     font-size: 26px;
     color: #1f2937;
+}
+
+.quote_section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+}
+
+blockquote {
+    font-size: 26px;
+    color: #1f2937;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+figcaption {
+    text-align: right;
 }
