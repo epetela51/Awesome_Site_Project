@@ -10,7 +10,7 @@ I mirrored the layout of the mockup page (seen below) but decided to put a spin 
 * Git
 * GitHub
 
-To view this page you can copy the repo and run locally or you can view it [here] (https://epetela51.github.io/Awesome_Site_Project/) from my GitHub pages link
+To view this page you can copy the repo and run locally or you can view it [here](https://epetela51.github.io/Awesome_Site_Project/) from my GitHub pages link
 
 <br>
 
