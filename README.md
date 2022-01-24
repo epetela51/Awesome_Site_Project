@@ -15,7 +15,7 @@ I mirrored the layout of the mockup page (seen below) but decided to put a spin 
 * Header links are white with no underline when unvisited, match the  blue of the buttons if visited and have an underline if hovered over
 * Flexbox utilized for main positioning and alignment through the page, only utilized margin & padding where necessary 
 
-To view this page you can copy the repo and run locally or you can view it [here](https://epetela51.github.io/Awesome_Site_Project/) from my GitHub pages link
+To view this page you can copy the repo and run locally or you can view it [here](https://epetela51.github.io/Landing_Page_Project/) from my GitHub pages link
 
 <br>
 
